@@ -1,0 +1,26 @@
+#fruit-sections{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   max-width: 400px;
+
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.fruit-section{
+   display: flex;
+   flex-direction: column;
+   color: green;
+   margin: 15px;
+
+
+}
+
+.fruit-img{
+   width:auto;
+   height:150px;
+   display: block;
+
+   border: green solid 3px;
+}
